@@ -1,0 +1,22 @@
+{
+  "name": "@mizchi/react-jadeify",
+  "version": "1.0.1",
+  "description": "transform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "mizchi"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "through": "^2.3.8",
+    "react-jade": "^2.5.0"
+  },
+  "gitHead": "e197e5dd4194b3ba90ecd3885ab61e576ace493b",
+  "readme": "ERROR: No README data found!",
+  "_id": "@mizchi/react-jadeify@1.0.1",
+  "_shasum": "7631e4d2fd6bb95c593fb5f7bc38cdd3728fcd0e",
+  "_from": "@mizchi/react-jadeify@*"
+}
