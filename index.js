@@ -1,6 +1,9 @@
 var through = require('through');
 var jade = require('react-jade');
+
 module.exports = function(file) {
+  if (!(/\.jade$/).test(file)) return through();
+
   var inputString = '';
   var write = function(buf) {return inputString += buf;};
   var end = function() {
